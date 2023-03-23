@@ -1,0 +1,323 @@
+PODS:
+  - Alamofire (5.2.1)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - ASCollectionView (1.2.0)
+  - CircleBar (0.8.2)
+  - Firebase/Analytics (6.27.0):
+    - Firebase/Core
+  - Firebase/Auth (6.27.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 6.6.0)
+  - Firebase/Core (6.27.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.6.1)
+  - Firebase/CoreOnly (6.27.0):
+    - FirebaseCore (= 6.8.0)
+  - Firebase/Database (6.27.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 6.3.0)
+  - Firebase/DynamicLinks (6.27.0):
+    - Firebase/CoreOnly
+    - FirebaseDynamicLinks (~> 4.1.0)
+  - Firebase/Functions (6.27.0):
+    - Firebase/CoreOnly
+    - FirebaseFunctions (~> 2.6.0)
+  - Firebase/Messaging (6.27.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.5.0)
+  - Firebase/RemoteConfig (6.27.0):
+    - Firebase/CoreOnly
+    - FirebaseRemoteConfig (~> 4.6.0)
+  - Firebase/Storage (6.27.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 3.7.0)
+  - FirebaseABTesting (3.3.0):
+    - FirebaseCore (~> 6.8)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseAnalytics (6.6.1):
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstallations (~> 1.4)
+    - GoogleAppMeasurement (= 6.6.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 1.30905.0)
+  - FirebaseAuth (6.6.0):
+    - FirebaseCore (~> 6.8)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.5)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (6.8.0):
+    - FirebaseCoreDiagnostics (~> 1.3)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+  - FirebaseCoreDiagnostics (1.4.0):
+    - GoogleDataTransportCCTSupport (~> 3.1)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+    - nanopb (~> 1.30905.0)
+  - FirebaseDatabase (6.3.0):
+    - FirebaseCore (~> 6.8)
+    - leveldb-library (~> 1.22)
+  - FirebaseDynamicLinks (4.1.0):
+    - FirebaseCore (~> 6.8)
+  - FirebaseFunctions (2.6.0):
+    - FirebaseCore (~> 6.8)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseInstallations (1.4.0):
+    - FirebaseCore (~> 6.8)
+    - GoogleUtilities/Environment (~> 6.6)
+    - GoogleUtilities/UserDefaults (~> 6.6)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (4.4.0):
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstallations (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/UserDefaults (~> 6.5)
+  - FirebaseMessaging (4.5.0):
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstanceID (~> 4.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.5)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Reachability (~> 6.5)
+    - GoogleUtilities/UserDefaults (~> 6.5)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseRemoteConfig (4.6.0):
+    - FirebaseABTesting (~> 3.1)
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstallations (~> 1.1)
+    - GoogleUtilities/Environment (~> 6.2)
+    - "GoogleUtilities/NSData+zlib (~> 6.2)"
+  - FirebaseStorage (3.7.0):
+    - FirebaseCore (~> 6.8)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - Fritz (5.3.7):
+    - Fritz/Vision (= 5.3.7)
+  - Fritz/Vision (5.3.7):
+    - FritzBase/Vision (= 5.3.7)
+  - Fritz/VisionSegmentationModel/Hair (5.4.1):
+    - Fritz/VisionSegmentationModel/Hair/Accurate (= 5.4.1)
+    - Fritz/VisionSegmentationModel/Hair/Fast (= 5.4.1)
+    - Fritz/VisionSegmentationModel/Hair/Small (= 5.4.1)
+  - Fritz/VisionSegmentationModel/Hair/Accurate (5.4.1):
+    - FritzVisionHairSegmentationModelAccurate (~> 5.3.0)
+  - Fritz/VisionSegmentationModel/Hair/Fast (5.4.1):
+    - FritzVisionHairSegmentationModelFast (~> 5.3.0)
+  - Fritz/VisionSegmentationModel/Hair/Small (5.4.1):
+    - FritzVisionHairSegmentationModelSmall (~> 5.3.0)
+  - Fritz/VisionSegmentationModel/People (5.4.1):
+    - Fritz/VisionSegmentationModel/People/Accurate (= 5.4.1)
+    - Fritz/VisionSegmentationModel/People/Fast (= 5.4.1)
+    - Fritz/VisionSegmentationModel/People/Small (= 5.4.1)
+  - Fritz/VisionSegmentationModel/People/Accurate (5.4.1):
+    - FritzVisionPeopleSegmentationModelAccurate (~> 5.3.0)
+  - Fritz/VisionSegmentationModel/People/Fast (5.4.1):
+    - FritzVisionPeopleSegmentationModelFast (~> 5.3.0)
+  - Fritz/VisionSegmentationModel/People/Small (5.4.1):
+    - FritzVisionPeopleSegmentationModelSmall (~> 5.3.0)
+  - Fritz/VisionStyleModel/Paintings (5.4.1):
+    - FritzVisionStyleModelPaintings (~> 5.3.0)
+  - Fritz/VisionStyleModel/Patterns (5.4.1):
+    - FritzVisionStyleModelPatterns (~> 5.3.0)
+  - FritzBase/Core (5.3.7)
+  - FritzBase/CoreMLHelpers (5.3.7)
+  - FritzBase/ManagedModel (5.3.7):
+    - FritzBase/Core (= 5.3.7)
+  - FritzBase/Vision (5.3.7):
+    - FritzBase/Core (= 5.3.7)
+    - FritzBase/CoreMLHelpers (= 5.3.7)
+    - FritzBase/ManagedModel (= 5.3.7)
+  - FritzVisionHairSegmentationModelAccurate (5.3.0):
+    - FritzBase/Vision (~> 5.3.0)
+  - FritzVisionHairSegmentationModelFast (5.3.0):
+    - FritzBase/Vision (~> 5.3.0)
+  - FritzVisionHairSegmentationModelSmall (5.3.0):
+    - FritzBase/Vision (~> 5.3.0)
+  - FritzVisionPeopleSegmentationModelAccurate (5.3.0):
+    - FritzBase/Vision (~> 5.3.0)
+  - FritzVisionPeopleSegmentationModelFast (5.3.0):
+    - FritzBase/Vision (~> 5.3.0)
+  - FritzVisionPeopleSegmentationModelSmall (5.3.0):
+    - FritzBase/Vision (~> 5.3.0)
+  - FritzVisionStyleModelPaintings (5.3.0):
+    - FritzBase/Vision (~> 5.3.0)
+  - FritzVisionStyleModelPatterns (5.3.0):
+    - FritzBase/Vision (~> 5.3.0)
+  - GoogleAppMeasurement (6.6.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 1.30905.0)
+  - GoogleDataTransport (6.2.1)
+  - GoogleDataTransportCCTSupport (3.2.0):
+    - GoogleDataTransport (~> 6.1)
+    - nanopb (~> 1.30905.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.6.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.6.0):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.6.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.6.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.6.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.6.0)"
+  - GoogleUtilities/Reachability (6.6.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.6.0):
+    - GoogleUtilities/Logger
+  - GSPlayer (0.2.16)
+  - GTMSessionFetcher/Core (1.4.0)
+  - leveldb-library (1.22)
+  - liquid-swipe (0.7.0):
+    - pop (~> 1.0)
+  - nanopb (1.30905.0):
+    - nanopb/decode (= 1.30905.0)
+    - nanopb/encode (= 1.30905.0)
+  - nanopb/decode (1.30905.0)
+  - nanopb/encode (1.30905.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - PagingCollectionViewLayout (0.0.4)
+  - pop (1.0.12)
+  - PromisesObjC (1.2.9)
+  - Protobuf (3.12.0)
+  - Reactions (3.0.0)
+  - SDWebImage (5.8.1):
+    - SDWebImage/Core (= 5.8.1)
+  - SDWebImage/Core (5.8.1)
+  - VegaScrollFlowLayout (1.1)
+
+DEPENDENCIES:
+  - AlamofireImage
+  - ASCollectionView
+  - CircleBar
+  - Firebase/Analytics
+  - Firebase/Auth
+  - Firebase/Database
+  - Firebase/DynamicLinks
+  - Firebase/Functions
+  - Firebase/Messaging
+  - Firebase/RemoteConfig
+  - Firebase/Storage
+  - Fritz
+  - Fritz/Vision
+  - Fritz/VisionSegmentationModel/Hair
+  - Fritz/VisionSegmentationModel/People
+  - Fritz/VisionStyleModel/Paintings
+  - Fritz/VisionStyleModel/Patterns
+  - GSPlayer
+  - liquid-swipe
+  - NVActivityIndicatorView
+  - PagingCollectionViewLayout
+  - Reactions
+  - SDWebImage
+  - VegaScrollFlowLayout
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - ASCollectionView
+    - CircleBar
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseDatabase
+    - FirebaseDynamicLinks
+    - FirebaseFunctions
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseRemoteConfig
+    - FirebaseStorage
+    - Fritz
+    - FritzBase
+    - FritzVisionHairSegmentationModelAccurate
+    - FritzVisionHairSegmentationModelFast
+    - FritzVisionHairSegmentationModelSmall
+    - FritzVisionPeopleSegmentationModelAccurate
+    - FritzVisionPeopleSegmentationModelFast
+    - FritzVisionPeopleSegmentationModelSmall
+    - FritzVisionStyleModelPaintings
+    - FritzVisionStyleModelPatterns
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleUtilities
+    - GSPlayer
+    - GTMSessionFetcher
+    - leveldb-library
+    - liquid-swipe
+    - nanopb
+    - NVActivityIndicatorView
+    - PagingCollectionViewLayout
+    - pop
+    - PromisesObjC
+    - Protobuf
+    - Reactions
+    - SDWebImage
+    - VegaScrollFlowLayout
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  ASCollectionView: 286f0269c84a730eb080458bd30014d9048f18ff
+  CircleBar: 8e17d2090e6e319b518010535a3145fb8fd68c22
+  Firebase: fc4cbf6f1592636431821ef9a3c557e4dfd9f268
+  FirebaseABTesting: b7f8b6c8c9398e98bb30c4195f697b5b73a330d0
+  FirebaseAnalytics: 0ea640473474f036cabbc2576e20c2d63671c92f
+  FirebaseAuth: b85c064e0ac60f82486728d50a4803f235687302
+  FirebaseCore: feda061cb1ee6d8ad4824f4a4a8ffbcfe284f595
+  FirebaseCoreDiagnostics: 4505e4d4009b1d93f605088ee7d7764d5f0d1c84
+  FirebaseDatabase: 3d02ffa794ec174853c086cf87cf2dc79bd6da49
+  FirebaseDynamicLinks: 50cff91aff05347770be750dde61d3311ff7ffc8
+  FirebaseFunctions: 55c11559aaef04038a066c07a7288094823ad3fb
+  FirebaseInstallations: 293f567159b6d66d1c990f13bb868066096c94ec
+  FirebaseInstanceID: 3b119bfe90e904851218159c9a4ecb847cc51d18
+  FirebaseMessaging: ad9e1a80ea64905e01a0ce1b3eb76a2944544151
+  FirebaseRemoteConfig: 63ae9d14848e645c7f070daa6af89265be48f803
+  FirebaseStorage: af7bdbd12177cf567df00904e3e3a93704f25b15
+  Fritz: 79145d00b7335bf41fe4e4b9d3cc1f9c4145082b
+  FritzBase: c60971ba5df9d011e48ffc443c2e1ce1f3d6a29e
+  FritzVisionHairSegmentationModelAccurate: 81c832f99aeb7c36885fd330ff8b327b9d709d8f
+  FritzVisionHairSegmentationModelFast: c24e43b826312c8c18f2e94be598f9fe008f0efc
+  FritzVisionHairSegmentationModelSmall: a3bc9c5e5a85c1dc39a83c33e932fbae858333a6
+  FritzVisionPeopleSegmentationModelAccurate: f1173f5b8c2031ab428e9d53686eae01eb6d630a
+  FritzVisionPeopleSegmentationModelFast: 526ae84d3e04604aab24edd5e9ee6659ab69566a
+  FritzVisionPeopleSegmentationModelSmall: 4878f5d59f5d7a5e891a74cc80ab22aae35bc0c7
+  FritzVisionStyleModelPaintings: 632d179c92b842031d3651afcfa6928500b3f66a
+  FritzVisionStyleModelPatterns: f57c0ba3b97a1a56aee42261798010641495ea29
+  GoogleAppMeasurement: 2fd5c5a56c069db635c8e7b92d4809a9591d0a69
+  GoogleDataTransport: 9a8a16f79feffc7f42096743de2a7c4815e84020
+  GoogleDataTransportCCTSupport: 489c1265d2c85b68187a83a911913d190012158d
+  GoogleUtilities: 39530bc0ad980530298e9c4af8549e991fd033b1
+  GSPlayer: 823f0b085a227fa4a6f853e5edbe70f7e2b28b76
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
+  liquid-swipe: 850f88c0717fe58ba83f0f571c47a191f29ddc1f
+  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  PagingCollectionViewLayout: a75339d9fe45affc116b6770f37c884a8a5e9cd9
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
+  Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
+  Reactions: 4994c6bb3e7c6b75756a0b26a4d4f5bde1a47dc7
+  SDWebImage: e3eae2eda88578db0685a0c88597fdadd9433f05
+  VegaScrollFlowLayout: 9158061f29179147755f937c2b21693fc5dbbac3
+
+PODFILE CHECKSUM: 74887666cb8f140d6c36cfedc251856df0344b51
+
+COCOAPODS: 1.8.4
